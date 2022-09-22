@@ -1,6 +1,5 @@
 # Title
-
-Introductory paragraph (replace this with your text)
+Rejecting writing norms with Rejex
 
 
 ## Summary
@@ -8,7 +7,7 @@ Introductory paragraph (replace this with your text)
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
 This gist will cover regex over email addresses. It will show how to decipher an email and validate your email address. 
-![emailRegex.png]
+![Image of app](emailRegex.png)
 
 ## Table of Contents
 
@@ -29,8 +28,6 @@ This gist will cover regex over email addresses. It will show how to decipher an
 ### Anchors
 ^ Matches the beginning of the regex expression.
 $ Matches the end of the regex expression.
-\B Matches where there is not word boundary.
-\b Matches where this is a word boundary.
 
 ### Quantifiers
 a* Matches 0 or more of the preceding variable.
@@ -63,10 +60,6 @@ s (dotall) Will match any character even new line.
 
 ### Grouping and Capturing
 (abc) Creates a capture group that matches any characters that have the variables inside the parentheses.
-\# references whatever inserted number capture group you have.
-(?:abc) Groups multiple characters without creating a capture group.
-(?=abc) Groups multiple characters without including it in the result.
-(?!abc) Can not match after the main expression otherwise it is discarded.
 
 ### Bracket Expressions
 [abc] Matches any character that is in between the brackets.
@@ -79,14 +72,22 @@ s (dotall) Will match any character even new line.
 
 ### Greedy and Lazy Match
 * + {} These are greedy operators. They will expand the search as far as the text is provided.
-? This is a lazy operator. 
+? This is a lazy operator. Causes the search to match as few as possible.
 
 ### Boundaries
+\b Matches where this is a word boundary. Word boundary is where one side is a word character and the other side is not. 
+\B Matches where there is not a word boundary.
+
 
 ### Back-references
+\# references whatever inserted number capture group you have.
 
 ### Look-ahead and Look-behind
+(?:abc) Groups multiple characters without creating a capture group.
+(?=abc) Groups multiple characters without including it in the result.
+(?!abc) Can not match after the main expression otherwise it is discarded.
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This regex expression was made by Luis Garcia
+You can follow more of my work at the following GitHub account.
+GitHub: https://github.com/garcia2697
