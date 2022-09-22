@@ -22,6 +22,7 @@ This gist will cover regex over email addresses. It will show how to decipher an
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Author](#author)
 
 ## Regex Components
 
@@ -87,7 +88,8 @@ s (dotall) Will match any character even new line.
 (?=abc) Groups multiple characters without including it in the result.<br>
 (?!abc) Can not match after the main expression otherwise it is discarded.
 
-## Author
-This regex expression was made by Luis Garcia
+### Author
+This regex expression was made by Luis Garcia. <br>
+Hi, I'm an aspiring Software Engineer with hopes into breaking into the industry.
 You can follow more of my work at the following GitHub account.
 GitHub: https://github.com/garcia2697
