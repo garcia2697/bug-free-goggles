@@ -6,7 +6,7 @@ Rejecting writing norms with Rejex
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
-This gist will cover regex over email addresses. It will show how to decipher an email and validate your email address. 
+This gist will cover regex over email addresses. It will show how to decipher an email regex. 
 ![Image of app](emailRegex.png)
 
 ## Table of Contents
@@ -71,7 +71,7 @@ s (dotall) Will match any character even new line.
 
 
 ### Greedy and Lazy Match
-* + {} These are greedy operators. They will expand the search as far as the text is provided.<br>
+{} + * These are greedy operators. They will expand the search as far as the text is provided.<br>
 ? This is a lazy operator. Causes the search to match as few as possible.
 
 ### Boundaries
