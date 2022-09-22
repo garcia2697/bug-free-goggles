@@ -26,15 +26,15 @@ This gist will cover regex over email addresses. It will show how to decipher an
 ## Regex Components
 
 ### Anchors
-^ Matches the beginning of the regex expression.
+^ Matches the beginning of the regex expression. <br>
 $ Matches the end of the regex expression.
 
 ### Quantifiers
-a* Matches 0 or more of the preceding variable.
-a+ Matches 1 or more of the preceding variable.
-a? Matches 0  or 1 of the preceding variable.
-a{#} Matches the exact amount of the inserted number in the curly brackets.
-a{#} Matches the exact amount of the inserted number in the curly brackets or more.
+a* Matches 0 or more of the preceding variable.<br>
+a+ Matches 1 or more of the preceding variable.<br>
+a? Matches 0  or 1 of the preceding variable.<br>
+a{#} Matches the exact amount of the inserted number in the curly brackets.<br>
+a{#} Matches the exact amount of the inserted number in the curly brackets or more.<br>
 a{#1,#2} Matches between inserted number 1 and inserted number 2.
 
 
@@ -51,11 +51,11 @@ ab | cd Matches between ab or cd.
 \S Matches anything except a white space. 
 
 ### Flags
-i (ignore Case) Makes the whole expression case insensitive
-g (global) Indicates that the regular expression should be tested against all possible matches in a string.
-m (multiline) The start and end anchors will match the start and end of a new line instead of a string.
-u (unicode) Allows you to use extended unicode escapes.
-y (sticky) Will only match from lastIndex and ignore the global variable.
+i (ignore Case) Makes the whole expression case insensitive<br>
+g (global) Indicates that the regular expression should be tested against all possible matches in a string.<br>
+m (multiline) The start and end anchors will match the start and end of a new line instead of a string.<br>
+u (unicode) Allows you to use extended unicode escapes.<br>
+y (sticky) Will only match from lastIndex and ignore the global variable.<br>
 s (dotall) Will match any character even new line.
 
 ### Grouping and Capturing
@@ -71,11 +71,11 @@ s (dotall) Will match any character even new line.
 
 
 ### Greedy and Lazy Match
-* + {} These are greedy operators. They will expand the search as far as the text is provided.
+* + {} These are greedy operators. They will expand the search as far as the text is provided.<br>
 ? This is a lazy operator. Causes the search to match as few as possible.
 
 ### Boundaries
-\b Matches where this is a word boundary. Word boundary is where one side is a word character and the other side is not. 
+\b Matches where this is a word boundary. Word boundary is where one side is a word character and the other side is not. <br>
 \B Matches where there is not a word boundary.
 
 
@@ -83,8 +83,8 @@ s (dotall) Will match any character even new line.
 \# references whatever inserted number capture group you have.
 
 ### Look-ahead and Look-behind
-(?:abc) Groups multiple characters without creating a capture group.
-(?=abc) Groups multiple characters without including it in the result.
+(?:abc) Groups multiple characters without creating a capture group.<br>
+(?=abc) Groups multiple characters without including it in the result.<br>
 (?!abc) Can not match after the main expression otherwise it is discarded.
 
 ## Author
