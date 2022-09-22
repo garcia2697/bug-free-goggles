@@ -42,13 +42,13 @@ a{#1,#2} Matches between inserted number 1 and inserted number 2.
 ab | cd Matches between ab or cd.
 
 ### Character Classes
-. any chacter except a newline.
-\w Matches any word characters.
-\W Matches anything except a word character.
-\d Matches any numerical characters
-\D Matches anything except a numerical character.
-\s Matches any white space.
-\S Matches anything except a white space.
+. any chacter except a newline. <br>
+\w Matches any word characters. <br>
+\W Matches anything except a word character. <br>
+\d Matches any numerical characters <br>
+\D Matches anything except a numerical character. <br>
+\s Matches any white space. <br>
+\S Matches anything except a white space. 
 
 ### Flags
 i (ignore Case) Makes the whole expression case insensitive
